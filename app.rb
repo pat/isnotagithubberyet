@@ -9,13 +9,19 @@ class Githubber < Sinatra::Base
   subdomain do
     get '/' do
       begin
+        @username = subdomain
+
         json = JSON.parse(
-          open("https://api.github.com/users/#{subdomain}/orgs").read
+          open("https://api.github.com/users/#{@username}/orgs").read
         )
 
-        json.any? { |org| org['login'] == 'github' }
+        if json.any? { |org| org['login'] == 'github' }
+          haml :no
+        else
+          haml :yes
+        end
       rescue
-        false
+        haml :yes
       end
     end
   end
