@@ -1,0 +1,5 @@
+source :rubygems
+
+gem 'json',              '1.7.3'
+gem 'sinatra',           '1.3.2', :require => 'sinatra/base'
+gem 'sinatra-subdomain', '0.1.2'
