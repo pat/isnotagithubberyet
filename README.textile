@@ -1,0 +1,7 @@
+h1. Is there anyone who doesn't work for GitHub yet?
+
+Given their constant hiring, it's only a matter of time until every dev you know works for them.
+
+This is just a bit of fun, but if you'd like to improve it (some design love especially), just fork and send a pull request.
+
+Released under some kind of open licence - MIT, BSD, Ruby, Apache, take your pick.
