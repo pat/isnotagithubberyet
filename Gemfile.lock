@@ -1,33 +1,29 @@
 GEM
   remote: http://rubygems.org/
   specs:
-    haml (5.0.4)
-      temple (>= 0.8.0)
+    haml (4.0.7)
       tilt
-    json (2.1.0)
-    mustermann (1.0.3)
-    rack (2.0.5)
-    rack-protection (2.0.3)
+    rack (1.6.4)
+    rack-protection (1.5.3)
       rack
-    sinatra (2.0.3)
-      mustermann (~> 1.0)
-      rack (~> 2.0)
-      rack-protection (= 2.0.3)
-      tilt (~> 2.0)
-    sinatra-subdomain (0.3.0)
+    sinatra (1.4.7)
+      rack (~> 1.5)
+      rack-protection (~> 1.4)
+      tilt (>= 1.3, < 3)
+    sinatra-subdomain (0.2.0)
       sinatra
-    temple (0.8.0)
-    tilt (2.0.8)
+    tilt (2.0.5)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
-  haml
-  json
-  rack
-  sinatra
-  sinatra-subdomain
+  haml (= 4.0.7)
+  sinatra (= 1.4.7)
+  sinatra-subdomain (= 0.2.0)
+
+RUBY VERSION
+   ruby 2.3.1p112
 
 BUNDLED WITH
-   1.16.1
+   1.12.5

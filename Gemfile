@@ -1,9 +1,7 @@
-source :rubygems
+source 'https://rubygems.org'
 
-ruby '1.9.3'
+ruby '2.3.1'
 
-gem 'rack',              '1.4.5'
-gem 'json',              '1.7.3'
-gem 'sinatra',           '1.3.2', :require => 'sinatra/base'
-gem 'sinatra-subdomain', '0.1.2'
-gem 'haml',              '3.1.1'
+gem 'sinatra',           '1.4.7', :require => 'sinatra/base'
+gem 'sinatra-subdomain', '0.2.0'
+gem 'haml',              '4.0.7'
