@@ -4,7 +4,7 @@ GEM
     haml (4.0.7)
       tilt
     rack (1.6.11)
-    rack-protection (1.5.3)
+    rack-protection (1.5.5)
       rack
     sinatra (1.4.7)
       rack (~> 1.5)
