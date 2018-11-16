@@ -1,9 +1,9 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     haml (4.0.7)
       tilt
-    rack (1.6.4)
+    rack (1.6.11)
     rack-protection (1.5.3)
       rack
     sinatra (1.4.7)
