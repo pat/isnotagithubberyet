@@ -23,7 +23,7 @@ DEPENDENCIES
   sinatra-subdomain (= 0.2.0)
 
 RUBY VERSION
-   ruby 2.3.1p112
+   ruby 2.3.8p459
 
 BUNDLED WITH
-   1.12.5
+   1.17.1
